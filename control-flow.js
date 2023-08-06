@@ -44,9 +44,27 @@
 
 // if else ,else if
 //continue and break statement
- for(let i=0; i<=10;i++){
-    if(i==2){
-        continue;
-     } console.log("value is" , i)
+//  for(let i=0; i<=10;i++){
+//     if(i==2){
+//         continue;
+//      } console.log("value is" , i)
     
- }
+//  }
+
+//break
+// for(let i=1; i<=10; i++){
+//     if(i==5){
+//         console.log("our value is" , i)
+//         break;
+//     }
+//     console.log("value of i is  " ,i);
+// }
+// console.log("we are out ");
+
+//operators
+let status = false;
+if(!status){
+    console.log(status);
+}else{
+    console.log("hee"); 
+}
