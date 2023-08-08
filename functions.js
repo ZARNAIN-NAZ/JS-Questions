@@ -48,6 +48,34 @@
 // }
 // console.log(com("hello")("my"));
 
+//callback function
+// var talk = function (fx) {
+//     fx()
+    
+// }
+// var sayHi = function(){
+//     console.log("hi");
+// }
+// talk(sayHi)
+
+// var calc = function(fx,a,b){
+//     return fx(a,b)
+// }
+// var sum = function(a,b){
+//     return a+b;
+// }
+// calc(sum,4,5)
+
+function make() {
+    let name  = "alina"
+    function displayName() {
+        console.log(name);
+    }
+   return displayName  
+}
+let anyword = make()
+anyword()
+
 //second method
 // let newCom = com("hello")
 // newCom('how r u ')
@@ -61,14 +89,29 @@
 // })("zarnain")
 
 //setTimeOut and setInterval
-function greeting(name) {
-    console.log("hello i am zarnain" , name);
+// function greeting(name) {
+//     console.log("hello i am zarnain" , name);
     
-}
-setTimeout(greeting,4000,"maya")
+// }
+// setTimeout(greeting,4000,"maya")
 
 //2nd method
 // setTimeout(function greeting(){
 //     console.log("this is another way");
 // }
 // ,8000)
+
+//setInterval
+// setInterval(greeting , 3000,"john")
+// clearInterval(greeting)
+
+//HOISTING-------
+// test()
+// let test = function(){
+//     console.log("hello");
+// }
+
+// test()
+// function test(){
+//     console.log("hello");
+// }
