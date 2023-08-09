@@ -65,4 +65,32 @@
 // console.log(doc.nextElementSibling); //sibling
 
 //events
+// const ul = document.querySelector("ul")
+// let event2 = document.querySelector('.clickMe')
+// // console.log(event2);
+// event2.addEventListener('click' ,function(){
+// // let li = document.createElement("p") createElement("any element u can write like p h li etc")
+// li.textContent = "something new added"
+// // ul.prepend(li)//at top
+// ul.append(li)//at bottom
+// })
 
+// let elem =  document.querySelectorAll("li")
+// // console.log(elem);
+// elem.forEach(function(elem)
+// {
+//     elem.addEventListener('click' , e=>{
+        // console.log("item checked");
+    //     console.log(e.target);
+    // e.target.style.textDecoration ="line-through"
+    // e.target.remove()
+//     })
+//  })
+
+//bubling and delegation
+// const ul = document.querySelector("ul")
+// ul.addEventListener('click' , (e)=>{
+//     if(e.target.nodeName == "LI"){
+//         e.target.remove()
+//     }
+// })  
