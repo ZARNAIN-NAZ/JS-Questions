@@ -94,3 +94,14 @@
 //         e.target.remove()
 //     }
 // })  
+
+//SUBMIT FORM
+let form = document.querySelector(".sign-up-Form")
+// let email  =document.querySelector("#email")
+// let password  =document.querySelector("#password")
+form.addEventListener("submit" , (e)=>{
+    e.preventDefault() //stop event to run continiously
+    // console.log("successfully");
+// console.log(email.value , password.value);
+console.log(form.email.value , form.password.value);
+})
