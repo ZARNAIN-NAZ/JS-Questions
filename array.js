@@ -94,4 +94,72 @@
 // })
 // console.log(result);
 
-//some and every method
+//some and every method //gives true and false
+// let scores = [34,343,53,34]
+// let result = scores.every(score=>{
+//     return score >50
+// })
+// console.log(result);
+
+//flat method
+// let arr = [1,2,3,[4,5,[6,7]]]
+// console.log("before flat" , arr);
+// let result = arr.flat(2)  (depth no of array)//by default 1 value
+// console.log("after flat",result);
+
+//flatMap
+// let cart = [{
+//     name:"mobile phone"
+//     ,qty:2,
+//     price:3232
+// },
+// {
+//     name:"tablet"
+//     ,qty:2,
+//     price:3232
+// }]
+
+// let newCart = cart.flatMap(item=>{
+//     if(item.name ==="mobile phone"){
+//         return [item,{
+//             name:"screen protector",
+//             qty:1,
+//             price:0
+//         }]
+//     }
+//     else{
+//         return [item]
+//     }
+// })
+// console.log(newCart);
+
+//sort //converts everything in strings
+// let letters = ["ariba" , "jamshed" , "liaquat"]
+// console.log(letters.sort());
+// console.log(letters.reverse());
+
+// let nums = [2,4,5,-33,-11]
+// // console.log(nums.sort());
+// console.log(nums);
+// nums.sort((a,b)=>{
+//     if(a<b){
+//         return -1
+//     }
+//     if(a>b){
+//         return 1
+//     }
+// })
+// console.log(nums);
+
+//function chaining
+// let num = [1,2,3,4,5,6,7]
+// let result = num.slice(0,3).splice(2,1,7).push(8)
+// console.log(result );
+
+var word= "hello"
+var split = word.split("")
+console.log(split);
+var reverse = split.reverse()
+console.log(reverse);
+var join = reverse.join("-")
+console.log(join);
